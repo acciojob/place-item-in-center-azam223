@@ -1,18 +1,18 @@
-*{
-	padding: 0px;
-	margin: 0px:
+/* Apply these styles to the holder */
+.holder {
+    display: flex;           
+    justify-content: center;  
+    align-items: center;     
+    width: 100vw;            
+    height: 100vh;          
 }
-.holder{
-	display: flex;
-	background-color: beige;
-	width: 100vw;
-	height: 100vh;
-	justify-content: center;
-	align-items: center;
+
+/* Apply these styles to item-1 */
+.item-1 {
+    width: 100px;            
+    height: 100px;           
+    background-color: red;    
+    display: flex;           
+    justify-content: center; 
+    align-items: center;      
 }
-.item-1{
-	background-color: red;
-	height: 100px;
-	width: 100px;
-}
-/* Your CSS Code here. */
